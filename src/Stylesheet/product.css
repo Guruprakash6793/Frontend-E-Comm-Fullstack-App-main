@@ -1,0 +1,124 @@
+.invent_form{
+    position:absolute;
+    
+    max-width:700px;
+    height:auto;
+    border:2px solid rgb(113, 69, 233);
+    padding:80px;
+    padding-top:10px;
+
+    margin-top:10px; 
+    left:20%;
+    /* text-align:center; */
+}
+.invent_heading{
+    text-align:center;
+    padding:20px;
+}
+.invent_form label{
+    font-weight:600;
+    text-align:left;
+}
+.invent_form input{
+    box-shadow: 4px red;
+    border:none;
+    border-bottom:2px solid black;
+    margin-left:25px;
+    /* margin:10px; */
+    padding: 15px;
+    font-weight: 700;
+    
+}
+/* .invent_form input:hover{
+    border:2px solid black;
+    
+
+} */
+
+.invent_heading{
+    text-align:center;
+    padding:20px;
+
+}
+
+
+.product_form{
+    background-color: lightslategray;
+    position:absolute;
+    box-shadow:10px red;
+    width:600px;
+    height:600px;
+    border:2px solid black;
+    padding:80px;
+    padding-top:20px;
+
+    margin-top:10px; 
+    left:20%;
+    /* text-align:center; */
+}
+.product_form label{
+    font-size: 22px;
+    font-weight:700;
+    text-align:left;
+    color:white
+}
+.product_form  input{
+    
+    box-shadow: tomato;
+    border-bottom:1px solid black;
+    margin-top:5px;
+    height:40px;
+    width:350px;
+    margin-left:25px;
+    background-color: transparent;
+   
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.backto{
+    /* text-align:center; */
+    
+    
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    
+    
+}
+.plus{
+    
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.product_list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+}
+.product_item{
+    max-width:400px;
+    height:400px;
+    border:2px solid black;
+    padding: 5px;;
+    
+}
+.product_title{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color:darkgreen
+}
+.product_desc{
+    text-indent: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
